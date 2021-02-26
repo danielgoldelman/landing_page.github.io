@@ -1,44 +1,45 @@
-.navbar ul {
-    /* 
-        Remove bullet points.
-    */
-    list-style: none;
-    width: 500px;
-    margin: 0 auto;
-    /* 
-        No padding.
-    */
-    padding: 0;
-    /* 
-        For navbars use background color that stands out.
-    */
-    background-color: black;
-    text-align: center;
-}
-
-/*  
-    Style individual list items.
-*/
-.navbar li {
-    width: 150 px;
-    background-color: #000;
-    border: 1px solid red;
-    /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-    */
-    padding: 10px;
-    display: inline-block;
-    line-height: 40px;
-}
-
-/* 
-    Style links in navbar.
-*/
 .navbar a {
-    color: white;
+    background: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
 }
+
+.navbar a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
+
+.navbar {
+border: 1px solid LightGrey;
+background: black;
+padding: 20px 0px;
+position: relative;
+text-align: center;
+width: 100%;
+}
+
 
 .background-header {
     width: 100%;
+}
+
+.over-logo {
+    color: white;
+    position: relative;
+}
+
+.logo {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/04/14/56/background-313415_1280.jpg);
+}
+
+.wes {
+    color: red;
 }
