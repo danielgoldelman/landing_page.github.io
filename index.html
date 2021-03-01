@@ -3,38 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title>Landing Page: Daniel Goldelman</title>
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-    <header>
+    <div class="head">
         <div class="navbar">
-            <a href="">Musicians</a>
-            <a href="">Audiophiles</a>
-            <a href="">Testamonials</a>
-            <a href="">Who We Are</a>
+            <a class="nlink" href="index.html#features">Features</a>
+            <a class="nlink" href="index.html#artists">Musicians</a>
+            <a class="nlink" href="index.html#pricing">Pricing</a>
+            <a class="nlink" href="">Testamonials</a>
+            <a class="nlink" href="index.html#contact">Contact</a>
         </div>
-        <section class="logo">
-            <div class="over-logo">
-                <h1>Welcome to Equalizer</h1>
-                <h3>The greatest music application for music lovers and musicians alike</h3>
+        <h1 class="title1">Welcome to Equalizer</h1>
+        <img class="rsound" src="./rainbow.jpg" alt="rainbow soundwave">
+        <h3 class="title2">The greatest music application for <br> music lovers and musicians alike</h3>
+        <p class="mpar">Brought to you by lifelong musicians invested in promoting music of all genres and musicians of all backgrounds. At Equalizer, we provide musicians with the best tools to interact with their fans and promote new ventures. Audiophiles, rejoice! Musicians can post their songs in any file they want, so you can get the best sound possible through your ~<em>reasonably priced</em>~ headphones. Our algorithms, brought to you by the fabulous engineers from world-renouned <a href="https://www.wesleyan.edu/mathcs/cs/index.html" target="_blank" rel="noreferrer" class="wes">Wesleyan University</a> students, are tailor made to give you accurate mind-blowing recommendations to enchance your musical palate.</p>   
+    </div>
+    <main>
+        
+        <section class="features" id="features">
+            <h2>Features in development:</h2>
+            <div class="feature-list">
+                <div class="card">
+                    <h3 class="ftitle">Proprietary Equalizer</h3>
+                    <p>Most other companies don't understand the use of equalizers. They don't recognise that everyone is different, and they especially don't realize that those differences are important. At equalizer, we value our customers for their differences. Thus, we provide every one of our listeners with a powerful, easy-to-use equalizer.</p>
+                </div>
+                <div class="card">
+                    <h3 class="ftitle">Rating System and Algorithm</h3>
+                    <p>The Equalizer rating system has many parts, all working together to give you the best listening experience. When you rate a song or artist, our algorithm takes notice, works some patented analytical magic, and gives you personalized recommendations. That means listening to more of what you love, and none of what you hate.</p>
+                </div>
+                <div class="card">
+                    <h3 class="ftitle">Fan/Artist Interactions</h3>
+                    <p>Equalizer encourages interactions between fans and artists. We want people to be able to react to music together and share new findings. Look forward to an in-app messaging system and the possibility for artists to reach out to their Superfans directly. Artists will also be able to promote shows and new music on their artist's page.</p>
+                </div>
             </div>
         </section>
-        <p>Brought to you by lifelong musicians invested in promoting music of all genres and musicians of all backgrounds. At Equalizer, we provide musicians with the best tools to interact with their fans and promote new ventures. Audiophiles, rejoice! Musicians can post their songs in any file they want, so you can get the best sound possible through your ~<em>reasonably priced</em>~ headphones. Our algorithms, brought to you by the fabulous engineers from world-renouned <a href="https://www.wesleyan.edu/mathcs/cs/index.html" target="_blank" rel="noreferrer" class="wes">Wesleyan University</a> students, is tailor made to give you accurate mind-blowing recommendations to enchance your musical palate.</p>  
         
-    </header>
-    <main>
-        <h3>Features we are developing:</h3>
-        <ul>
-            <li>Rating system for songs</li>
-            <li>Proprietary Equalizer</li>
-            <li>Advanced Algorithm for Song and Artist Suggestions</li>
-            <li>Adaptable Audio Filetypes: Uploading and Downloading</li>
-            <li>Artist-Fan Interactions Through Messaging Systems and Release Notifications</li>
-        </ul>
 
-        <div class="pricing">
+
+        <section id="artists">
+            <h2>Musician's Corner</h2>
+            <h3>Beginner: you have uploaded at least 5 songs  to Equalizer</h3>
+            <ul>
+                <li><div class="badge">
+                    <p>Beginner's Badge:</p>
+                    <img src="./cassette.png" alt="cassette" id="cassette">
+                </div></li>
+            </ul>
+            <br>
+            <h3>Musician: you have 1,000 monthly listeners on Equalizer</h3>
+            <ul>
+                <li><div class="badge">
+                    <p>Musician's Badge:</p>
+                    <img src="./cd.webp" alt="compact disc" id="cd">
+                </div></li>
+            </ul>
+            <br>
+            <h3>Artist: you have 100,000 monthly listeners on Equalizer</h3>
+            <ul>
+                <li><div class="badge">
+                    <p>Artist's Badge:</p>
+                    <img src="./vinyl.png" alt="vinyl record" id="vinyl">
+                </div></li>
+                <li>Chance to be featured in one of Equalizer's promotions</li>    
+            </ul>
+            <br>
+            <h3>Trend Setter: you have 1,000,000 monthly listeners on Equalizer</h3>
+            <ul>
+                <li>Ability to design your artist's page</li>
+                <li>Significantly higher chance to be featured in one of Equalizer's promotions</li>
+            </ul>
+            <br>
+            <br>
+            <h3>SuperStar: you have 10,000,000 or higher monthly listeners on Equalizer</h3>
+            <ul>
+                <li>Ability to design your artist's page</li>
+                <li>Able to reserve a day in the year to be the cover star of the website and background of the home screen of the app with a link to your personal website and music.</li>
+        </ul>
+        </section>
+
+
+        <div id="pricing">
             <h2>Pricing:</h3>
             <h3>Free: The 3 Band Club</h3>
             <ul>
@@ -51,12 +102,24 @@
             </ul>
         </div>
 
-        <h2>Artist's Corner</h2>
-        <h4>Artist: The 4 Band Club (this means you have uploaded at least 5 songs to Equalizer)</h4>
-        <ul>
-            <li>Artis's Badge</li>
-        </ul>
+        
+        <br>
     </main>
+
+    <footer class="foot">
+        <h4>Join the Beta!</h4>
+        <form action="">
+            
+            <label for="email">Enter your email here:</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <a href="index.html/footer">
+                <input type="submit"/>
+            </a>
+        </form>
+        <p id="contact">Information: <a class="wes" href="">equalizer@eq.org</a></p>
+        <br>
+        <p id="note">This site was designed and published as part of the COMP 333 Software Engineering class at Wesleyan University. The described platform is not publicly available but rather is created as a training exercise.</p>
+    </footer>
     
 </body>
 </html>
