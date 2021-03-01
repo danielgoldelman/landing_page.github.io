@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
+    <div class="navbar">
+        <a class="nlink" href="#features">Features</a>
+        <a class="nlink" href="#artists">Musicians</a>
+        <a class="nlink" href="#pricing">Pricing</a>
+        <a class="nlink" href="#testamonials">Testamonials</a>
+        <a class="nlink" href="#contact">Contact</a>
+    </div>
     <div class="head">
-        <div class="navbar">
-            <a class="nlink" href="index.html#features">Features</a>
-            <a class="nlink" href="index.html#artists">Musicians</a>
-            <a class="nlink" href="index.html#pricing">Pricing</a>
-            <a class="nlink" href="">Testamonials</a>
-            <a class="nlink" href="index.html#contact">Contact</a>
-        </div>
         <h1 class="title1">Welcome to Equalizer</h1>
         <img class="rsound" src="./rainbow.jpg" alt="rainbow soundwave">
         <h3 class="title2">The greatest music application for <br> music lovers and musicians alike</h3>
-        <p class="mpar">Brought to you by lifelong musicians invested in promoting music of all genres and musicians of all backgrounds. At Equalizer, we provide musicians with the best tools to interact with their fans and promote new ventures. Audiophiles, rejoice! Musicians can post their songs in any file they want, so you can get the best sound possible through your ~<em>reasonably priced</em>~ headphones. Our algorithms, brought to you by the fabulous engineers from world-renouned <a href="https://www.wesleyan.edu/mathcs/cs/index.html" target="_blank" rel="noreferrer" class="wes">Wesleyan University</a> students, are tailor made to give you accurate mind-blowing recommendations to enchance your musical palate.</p>   
+        <p class="mpar">Brought to you by lifelong musicians invested in promoting music of all genres and musicians of all backgrounds. At Equalizer, we provide musicians with the best tools to interact with their fans and promote new ventures. Audiophiles, rejoice! Musicians can post their songs in any file they want, so you can get the best sound possible through your ~<em>reasonably priced</em>~ headphones. Our algorithms, brought to you by the fabulous engineers from world-renouned <a href="wesleyan.html" class="wes">Wesleyan University</a> students, are tailor made to give you accurate mind-blowing recommendations to enchance your musical palate.</p>   
     </div>
     <main>
         
@@ -43,7 +43,7 @@
         
 
 
-        <section id="artists">
+        <section class="artists" id="artists">
             <h2>Musician's Corner</h2>
             <h3>Beginner: you have uploaded at least 5 songs  to Equalizer</h3>
             <ul>
@@ -85,7 +85,7 @@
         </section>
 
 
-        <div id="pricing">
+        <div class="pricing" id="pricing">
             <h2>Pricing:</h3>
             <h3>Free: The 3 Band Club</h3>
             <ul>
@@ -102,14 +102,20 @@
             </ul>
         </div>
 
-        
+        <div class="testamonials" id="testamonials">
+            <h2>Testamonials:</h2>
+            <ul>
+                <li>"Honestly the best new program out there."<br> - Sino Soydal</li>
+                <li>"I have no idea how they created those algorithms. Seriously amazing stuff."<br> - Al Gorrith, MS</li>
+                <li>"So happy to see my flock branch out and create such awesome systems."<br> - Cardi Nyall</li>
+            </ul>
+        </div>
         <br>
     </main>
 
-    <footer class="foot">
+    <footer class="footer">
         <h4>Join the Beta!</h4>
         <form action="">
-            
             <label for="email">Enter your email here:</label>
             <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             <a href="index.html/footer">
@@ -118,8 +124,9 @@
         </form>
         <p id="contact">Information: <a class="wes" href="">equalizer@eq.org</a></p>
         <br>
-        <p id="note">This site was designed and published as part of the COMP 333 Software Engineering class at Wesleyan University. The described platform is not publicly available but rather is created as a training exercise.</p>
     </footer>
+
+    <p id="note">This site was designed and published as part of the COMP 333 Software Engineering class at Wesleyan University. The described platform is not publicly available but rather is created as a training exercise.</p>
     
 </body>
 </html>

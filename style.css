@@ -1,7 +1,10 @@
 * {
     background: black;
     box-sizing: border-box;
-    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar a {
@@ -18,10 +21,18 @@
 }
 
 .navbar {
-    border: 1px solid LightGrey;
     padding: 20px 0px;
-    position: relative;
     width: 100%;
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 .nlink {
@@ -33,7 +44,7 @@ h1 {
 }
 
 h1, h2, h3 {
-    font-family: fantasy;
+    font-family: 'Tangerine', cursive;
 }
 
 h3 {
@@ -48,9 +59,14 @@ ul {
 .head {
     box-sizing: border-box;
     display: block;
-    text-size-adjust: 100px;
-    margin: auto;
+    text-size-adjust: 100%;
+    align-items: center;
     justify-content: center;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 2% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 
@@ -65,21 +81,18 @@ body {
 
 .title1 {
     margin: 4% auto 0px auto;
-    width: 600px;
     padding: 1%
 }
 
 .rsound {
-    width: auto;
-    margin: auto;
-    align-items: center;
-    display: flex;
+    height: 10%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .title2 {
     text-decoration: none;
     justify-content: center;
-    width: 600px;
     margin: 1% auto;
     align-items: center;
     padding-top: 1%;
@@ -133,6 +146,57 @@ body {
     font-size: 20px;
 }
 
+.features {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.artists {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+
+.pricing {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.testamonials {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
 #artists, #pricing {
     padding: 5% 0px;
 }
@@ -161,6 +225,14 @@ input[type="text"], [type="submit"] {
     text-align: left;
 }
 
-.text-center {
-    text-align: center !important;
-  }
+.footer {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}

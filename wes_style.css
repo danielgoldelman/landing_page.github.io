@@ -1,0 +1,36 @@
+* {
+    background: black;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+body {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+}
+
+p {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    padding-top: 5%;
+    align-items: center;
+}
+
+a {
+    color: red;
+}
