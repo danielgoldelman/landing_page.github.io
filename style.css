@@ -1,45 +1,166 @@
+* {
+    background: black;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
 .navbar a {
     background: red;
     border: 1px solid red;
-    border-radius: 10px;
+    border-radius: 12px;
     color: black;
     display: inline-block;
     text-decoration: none;
-    padding: 20px;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 150px;
 }
-
-.navbar a:hover {
-    background: white;
-    border: 1px solid red;
-    color: red;
-  }
 
 .navbar {
-border: 1px solid LightGrey;
-background: black;
-padding: 20px 0px;
-position: relative;
-text-align: center;
-width: 100%;
-}
-
-
-.background-header {
+    border: 1px solid LightGrey;
+    padding: 20px 0px;
+    position: relative;
     width: 100%;
 }
 
-.over-logo {
-    color: white;
-    position: relative;
+.nlink {
+    font-weight: bold;
 }
 
-.logo {
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    background-image: url(https://cdn.pixabay.com/photo/2014/04/04/14/56/background-313415_1280.jpg);
+h1 {
+    font-size: 40px;
+}
+
+h1, h2, h3 {
+    font-family: fantasy;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.head {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+body {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    justify-items: center;
+}
+
+
+.title1 {
+    margin: 4% auto 0px auto;
+    width: 600px;
+    padding: 1%
+}
+
+.rsound {
+    width: auto;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.title2 {
+    text-decoration: none;
+    justify-content: center;
+    width: 600px;
+    margin: 1% auto;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.mpar {
+    min-width: 550px;
+    max-width: 1000px;
+    margin: 5% auto;
+    border: 5px ridge red;
+    padding: 2%;
+    
 }
 
 .wes {
     color: red;
 }
+
+.features {
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    padding-top: 5%;
+    align-items: center;
+}
+
+.feature-list {
+    align-items: center;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+    display: inline-block;
+}
+
+.card {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 400px;
+    min-width: 290px;
+    padding: 0px 10px;
+    margin: 10px;
+    box-shadow: white;
+    height: 270px;
+}
+
+.badge {
+    display: inline-block;
+}
+
+.ftitle {
+    font-size: 20px;
+}
+
+#artists, #pricing {
+    padding: 5% 0px;
+}
+
+#cd, #cassette, #vinyl {
+    height: 70px;
+}
+
+.foot {
+    text-align: center;
+}
+
+input[type="text"], [type="submit"] {
+    color: white;
+    border: 1px solid white;
+}
+
+#email {
+    color: white;
+}
+
+#note {
+    padding-top: 5%;
+    font-size: 11px;
+    width: 500px;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center !important;
+  }
