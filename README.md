@@ -9,9 +9,7 @@ index.html:
   hyperlink: line 22
   img: line 20
   navigation bar: line 11
-  
-wesleyan.html:
-  iframe: line 12
+  iframe: line 118
   
 style.css:
   style via id attributes: line 204
