@@ -15,7 +15,9 @@ style.css:
   style via id attributes: line 204
   style via class attributes: line 23
   
+Please Note: 
 
+There is no second HTML file because it was allowed to just put an external iframe into the one HTML file, replacing the need for a second file.
 
 Link to the website: 
 
