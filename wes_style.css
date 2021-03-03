@@ -3,29 +3,37 @@
     box-sizing: border-box;
     text-align: center;
     color: white;
+    align-content: center;
 }
 
 body {
     color: white;
     font-size: 18px;
-    text-align: center;
-    margin: auto;
-    justify-items: center;
-    align-content: center;
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 iframe {
     margin: 0 auto;
     background-color: #777;
-    display:block;
+    display: block;
 }
 
 p {
     box-sizing: border-box;
     display: block;
     text-size-adjust: 100%;
+    width: 600px;
     padding-top: 5%;
     align-items: center;    
+    margin: 0px auto;
 }
 
 a {
